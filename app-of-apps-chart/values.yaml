@@ -1,0 +1,21 @@
+clusters:
+- name: minikube
+  destinationServer: https://kubernetes.default.svc
+  apps:
+    prometheus:
+      enabled: true
+      version: "9.7.4"
+
+    sampleApp:
+      enabled: true
+      branch: HEAD
+
+- name: aks 
+  destinationServer: https://xxxxxxxxxxxxx.io
+  apps:
+    prometheus:
+      enabled: true
+      version: "9.7.4"
+    sampleApp:
+      enabled: true
+      branch: HEAD
