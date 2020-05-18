@@ -10,3 +10,13 @@ clusters:
       enabled: true
       branch: HEAD
 
+- name: anothercluster
+  destinationServer: https://35.205.233.149
+  apps:
+    prometheus:
+      enabled: true
+      version: "9.7.4"
+
+    sampleApp:
+      enabled: true
+      branch: HEAD
