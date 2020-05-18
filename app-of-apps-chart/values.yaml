@@ -3,7 +3,7 @@ clusters:
   destinationServer: https://kubernetes.default.svc
   apps:
     prometheus:
-      enabled: true
+      enabled: false
       version: "9.7.4"
 
     sampleApp:
